@@ -17,10 +17,10 @@ function urlFavicon()
 				schema = url.match(/^(http[s]*):\/\//)[1];
 			$(this).css({
 				\'background-image\': \'url(//favicons.githubusercontent.com/\' + domain + \')\',
+				\'background-size\': \'16px\',
 				\'background-repeat\': \'no-repeat\',
 				\'background-position\': \'0 2px\',
-				\'padding-left\': \'18px\',
-				\'background-size\': \'16px\'
+				\'padding-left\': \'18px\'
 			});
 		})', true);
 }
