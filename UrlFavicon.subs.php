@@ -16,10 +16,11 @@ function urlFavicon()
 				domain = url.match(/:\/\/(.[^/]+)/)[1],
 				schema = url.match(/^(http[s]*):\/\//)[1];
 			$(this).css({
-				\'background-image\': \'url(//www.google.com/s2/favicons?domain=\' + schema + \'://\' + domain + \')\',
+				\'background-image\': \'url(//favicons.githubusercontent.com/\' + domain + \')\',
 				\'background-repeat\': \'no-repeat\',
 				\'background-position\': \'0 2px\',
-				\'padding-left\': \'18px\'
+				\'padding-left\': \'18px\',
+				\'background-size\': \'16px\'
 			});
 		})', true);
 }
